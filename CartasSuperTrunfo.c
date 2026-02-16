@@ -23,12 +23,12 @@ int main() {
   float Pib;             
   int PontosTuristicos;   
 
-  // Área para entrada de dados 1
+  // Área para entrada de dados CARTA 1
   
   printf("\n=== Cadastro de Carta 1 ===\n");
 
   printf("Digite o Estado escolha do (A ao H): ");
-  scanf(" %c", &estado);                      // espaço antes do %c pra ignorar ENTER anterior
+  scanf(" %c", &estado);  // espaço antes do %c pra ignorar ENTER anterior
 
   printf("Digite o Codigo da Carta (ex: A01): ");
   scanf("%s", codigodaCarta);                
@@ -51,8 +51,8 @@ int main() {
   // ===== ENTRADA CARTA 2 =====
     printf("\n=== Cadastro da Carta 2 ===\n");
 
-    printf("Digite o Estado escolha do (A ao H): ");
-    scanf(" %c", &Estado);
+    printf("Digite o Estado escolha do (A ao H): "); 
+    scanf(" %c", &Estado); // espaço antes do %c pra ignorar ENTER anterior
 
     printf("Digite o Codigo da Carta (ex: B03): ");
     scanf(" %s", CodigodaCarta);
@@ -73,7 +73,7 @@ int main() {
     scanf("%d", &PontosTuristicos);
 
 
-    // Área para exibição dos dados da cidade carta 1 e 2
+    // Área para exibição dos dados da cidade carta 1 e carta 2
     printf("\nCarta 1:\n");
     printf("Estado: %c\n", estado);
     printf("Codigo: %s\n", codigodaCarta);
